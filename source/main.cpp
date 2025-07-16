@@ -390,7 +390,7 @@ public:
     Asteroid(C2D_SpriteSheet spritesheet_) : spritesheet(&spritesheet_) {
 
 
-        char edge = rand() % 3;
+        char edge = rand() % 4;
         if (edge == 0) {
             x = 1;
             y = rand() % TOP_HEIGHT;
